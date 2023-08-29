@@ -1,0 +1,85 @@
+.courses{
+    margin-top: 5rem;
+}
+
+.courses__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.course{
+    padding: 0.5rem;
+}
+
+.course p{
+    font-size: 0.9rem;
+}
+
+/* MEDIA QUERIES {TABLETS} */
+@media screen and (max-width: 1024px){
+    .courses{
+        margin-top: 0;
+    }
+
+    .courses__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .course p{
+        font-size: 1rem;
+    }
+
+    .footer__container p{
+        font-size: 1.2rem;
+    }
+
+    .footer__container a{
+        font-size: 1.2rem;
+    }
+
+    .footer__socials a{
+        font-size: 1.2rem;
+    }
+}
+
+/* MEDIA QUERIES {PHONES} */
+@media screen and (max-width: 600px){
+    .courses__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .course{
+        width: 100%;
+    }
+
+    .course p{
+        font-size: 0.9rem;
+    }
+
+    .course .btn{
+        font-size: 0.9rem;
+    }
+
+    .footer__container p{
+        font-size: 0.7rem;
+    }
+
+    .copyrights{
+        font-size: 0.7rem;
+    }
+
+    .footer__container p{
+        font-size: 0.9rem;
+    }
+
+    .footer__container a{
+        font-size: 0.9rem;
+    }
+
+    .footer__socials a{
+        font-size: 0.9rem;
+    }
+}
